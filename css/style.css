@@ -1,86 +1,32 @@
-/*tags padrões*/
-
-html{
-    background-color: #051124;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
 }
 
-header {
-    max-height: fit-content;
-    min-width: 100px;
-    width: 100%;
-    display: inline-flex;
-    padding: 4%;
-    font-size: 500%;
-    line-height: 10%;
-    color: white;
-    min-height: 120px;
-    margin: 20%,20%,20%;
-  }
+html{background-color: rgb(5, 17, 36)}
 
-  /*detalhes sobre o artista e sua foto*/
 
-.artista {
-    height: 20%;
-    max-width: 140px;
-    margin-left: 3%;
-}
-.artistaName {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 3%;
-    font-size: xx-large;
-    text-underline-offset: 4%;
-    text-align: center;
-}
-
-.artistamusic{
-    font-size: medium;
-}
-
-  /*aqui muda as cores das páginas de cada musica baseado no nome do artista*/
-
-  .madonna{
-    background-image: linear-gradient(#d6d6d6, #051124);
-  }
-
-  .katy {
-    background-image: linear-gradient(#f80000, #051124);
-  }
-
-  /*aqui é a area da letra e seu titulo*/
-
-.letra{
-    color: rgb(255, 255, 255);
-    font-size: 105%;
-    border-radius: 5px;
-    border: 1px solid #c4c3c38f;
-    display: flex;
-    height: 150px;
-    align-items: center;
-    margin-top: 2%;
-    text-align: center;
-    display: inline-block;
-    background-color: 	#202020;
-    width: 300px;
-    height: 20px;
-    margin-right: 5%;
-}
-
-/*apenas o Lirycs*/
-
-pre{
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 180%;
-}
-
-/*css dos botões ⬇️*/
 
 .titulo{
-    color: white;
-    text-align: center;
-    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom, white, white);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: center;
+     margin-bottom: 50px;
+     font-size: 30px;
+   }
+
+
+.X{
+ background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255), rgb(255, 255, 255), rgb(148, 139, 139) );
+    background-clip: text;
+  -webkit-background-clip: text;
+
 }
+
 
 .img1{
     width: 50px;
@@ -140,8 +86,9 @@ pre{
 }
 
 .imag6{
-    background-image: url(https://cdn.wallpapersafari.com/27/7/CD6IWE.jpg);
+    background-image: url(https://media.istockphoto.com/id/1384963623/vector/black-texture-background-vector-old-gray-marbled-vintage-grunge-textured-design-antique.jpg?s=612x612&w=0&k=20&c=GUFa6DJonv3RuJVaj__j6fjJuup90igwoThf57OYdBQ=)
 }
+
 
 
 /********************************************/
@@ -175,7 +122,7 @@ pre{
     border-radius: 6px;
     border: none;
     background-color: green;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 22px;
     padding: 0px 10px 0px 0px;
@@ -188,7 +135,7 @@ pre{
     border-radius: 6px;
     border: none;
     background-color: blue;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 22px;
     padding: 0px 10px 0px 0px;
@@ -214,7 +161,7 @@ pre{
     border-radius: 6px;
     border: none;
     background-color: gray;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 22px;
     padding: 0px 10px 0px 0px;
@@ -251,6 +198,7 @@ pre{
     right: 2;
 }
 /**FIM BRANCO**/
+
 
 
 
@@ -398,3 +346,9 @@ pre{
     right: 2;
 }
 /**FIM INCOLOR**/
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: small ;
+}
