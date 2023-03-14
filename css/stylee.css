@@ -40,8 +40,6 @@ header {
   /*detalhes sobre o artista e sua foto*/
 
 .artista {
-    -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
-        filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
     height: 20%;
     max-width: 140px;
     margin-left: 3%;
